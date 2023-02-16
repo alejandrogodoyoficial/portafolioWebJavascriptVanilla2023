@@ -1,0 +1,29 @@
+.contacto{
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+}
+
+.contacto div{
+    background-color: var(--colorOne);
+    padding: 4rem;
+    border-radius: 40px/50px;
+}
+
+.contacto p, .contacto a{
+    color: #FFF;
+    font-size: 2.5rem;
+}
+
+.contacto a:hover{
+    color: #000;
+    display: inline-block;
+    transform: scale(1.5);
+}
+
+.contacto p{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}

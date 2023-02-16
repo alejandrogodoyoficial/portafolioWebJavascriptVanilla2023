@@ -1,0 +1,34 @@
+.responsiveMenu{
+    align-items: center;
+    background-color: var(--colorOne);
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.responsiveMenu ul{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.responsiveMenu ul a, .responsiveMenu ul li {
+    color: #FFF;
+    font-size: 2rem;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+[alt="x"]{
+    filter: invert();
+    margin: 1rem 1rem 0 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 2rem;
+}

@@ -1,0 +1,23 @@
+.stack{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content:space-around;
+}
+
+.stack div{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.stack div img{
+    margin-top: 7rem;
+    width: 15rem;
+}
+
+.stack div h3{
+    color: var(--colorTwo);
+    font-size: 2rem;
+}

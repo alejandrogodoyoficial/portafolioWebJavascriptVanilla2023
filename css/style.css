@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    font-size: 18px;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    text-decoration: none;
+}
+:root{
+    --colorOne : rgb(52, 0, 197);
+    --colorTwo: #555;
+    --colorThree : rgb(128, 83, 250);
+}

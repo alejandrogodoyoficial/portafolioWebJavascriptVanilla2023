@@ -1,0 +1,36 @@
+.inicio_links{
+    display: flex;
+    justify-content: center;
+    width: 20rem;
+}
+
+.inicio_links a img{
+    border-radius: 50%;
+    width: 25vw;
+}
+.inicio{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: center;
+}
+.inicio div{
+    display: flex;
+    width: 600px;
+}
+.inicio_text{
+    color: var(--colorTwo);
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 2rem 0 2rem;
+}
+
+.inicio_title{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.inicio_description{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
